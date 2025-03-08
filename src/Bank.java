@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Bank {
-    private static List<Konto> konta = new ArrayList<>();
+    public static List<Konto> konta = new ArrayList<>();
 
     public static void dodajKonto(Konto konto) {
         konta.add(konto);
