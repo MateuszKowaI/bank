@@ -15,4 +15,7 @@ public class KontoFirmowe extends Konto{
             System.out.println("Przekroczono limit kredytowy!");
         }
     }
+    public double getLimitKredytowy(){
+        return limitKredytowy;
+    }
 }
