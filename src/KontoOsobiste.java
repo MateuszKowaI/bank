@@ -9,7 +9,7 @@ public class KontoOsobiste extends Konto{
 
     @Override
     public void wyplata(double kwota) {
-        System.out.println("Wypłata z konta osobistego: " + kwota);
+        System.out.println("Wypłacono z konta osobistego: " + kwota);
         super.wyplata(kwota);
     }
 }
