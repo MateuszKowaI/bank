@@ -1,4 +1,4 @@
-public class Konto {
+public class Konto implements Operacje {
     private final int numerKonta;
     protected double saldo;
 
